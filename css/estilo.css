@@ -1,0 +1,191 @@
+
+.body{
+    font-family: fantasy;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	
+}
+
+
+.contenedor{
+	background-image:url("../IMAGENES/man-791049_1920.jpg");
+	width: 80%;
+	max-width: 1200;
+	min-width: 300px;
+	height:2000px;
+	border: 3px solid;
+	margin: auto;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	align-content: center;
+	background-repeat: no-repeat;
+	background-size: 100% 30%;
+
+
+
+}
+ 
+header{
+	width: 100%;
+	background-color:rgb(255, 255, 255);
+	max-width: 1200;
+	min-width: 350px;
+}
+
+
+ul{
+
+	text-align: right;
+	text-decoration: none;
+	list-style: none;
+	padding: 20px;
+}
+a{
+	color:rgb(37, 63, 206);
+	text-decoration: none;
+	font-size: 20px;
+	font-style: inherit;
+}
+
+
+
+.in{
+	padding: 5px;
+
+	transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+
+.in:hover{
+
+border-bottom: solid 3px;
+border-color: rgb(255, 30, 124);
+}
+.in:active{
+
+	background-color: deepskyblue;
+}
+
+
+
+
+
+
+nav{
+	display: grid;
+	grid-auto-flow: column;
+	grid-gap: 1em;
+}
+
+
+
+h1{font-size: 80px;
+color:rgb(255, 255, 255);
+font-family: 'Roboto Mono', monospace;
+	text-align: center;
+	margin-top: 200px;
+	text-decoration: none;
+	letter-spacing: 3px;
+	max-width: 1200;
+	min-width: 350px;
+	
+}
+
+
+h2{
+padding-top: 50px;
+}
+
+.segundocontenedor{
+	background: #2b5876; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #2b587669, #4e437677); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #2b587671, #4e43766e);
+height:600px;
+max-width: 1200;
+min-width: 350px;
+}
+
+
+
+
+h3{text-align: center;}
+
+
+
+.boton{text-align: center;
+      font-size: 30px;
+	padding: 20px 40px;
+	
+}
+.boton{
+
+	margin-top: -100px;
+    color: #ffffff54;
+    text-decoration: none;	
+}
+.btn{border: solid 2px;
+	padding: 5px;
+border-radius: 20px;}
+.btn:hover{
+background: RED;
+}
+.btn:active{
+	
+	background-color: darkorange;
+box-sizing: 5px;
+}
+
+section{margin-top: 100px;
+background-color: rgba(214, 214, 214, 0.349);
+text-align: center;}
+
+p{
+	text-align: center;
+	padding: 40px;
+}
+
+h6{
+
+	font-size: 50px;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	align-items: center;
+	margin-top: -60px;
+}
+
+.blanco{
+width: 300px;
+height: 300px;
+background-color: rgb(255, 255, 255);
+margin: auto;
+}
+.two{
+	background-color: rgba(176, 206, 250, 0.349);
+	display: grid;
+}
+.blue{
+	background-color: rgb(255, 255, 255);
+	width: 300px;
+height: 300px;
+margin: auto;
+}
+
+.yelow{
+	background-color: rgb(255, 251, 30);
+	width: 300px;
+height: 300px;
+margin: auto;
+
+}
+.fa-angellist{
+	text-align: center;
+	font-size: 100px;
+}
+.ficha1{
+	position: relative;
+	margin-top: -60px;
+}
+.fa-network-wired{
+
+	position: relative;
+	font-size: 100px;
+}
